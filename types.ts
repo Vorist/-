@@ -77,16 +77,6 @@ export interface WorkoutSet {
   completed?: boolean;
 }
 
-// User Posts
-export interface UserPost {
-  id: string;
-  user_id: string;
-  content: string;
-  media: { type: 'image' | 'video', url: string }[];
-  created_at: number;
-  updated_at: number;
-}
-
 // Plan Item Structure
 export interface WorkoutPlanItem {
   exercise_id: string;
